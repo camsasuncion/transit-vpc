@@ -1,0 +1,11 @@
+transit_vpc_push_cisco_config-2.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+transit_vpc_push_cisco_config-2.0.dist-info/METADATA,sha256=dF-4qB4OeN1LPjYStkiF2SOaPyOUa2IYgoCxB2DsYz4,342
+transit_vpc_push_cisco_config-2.0.dist-info/RECORD,,
+transit_vpc_push_cisco_config-2.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transit_vpc_push_cisco_config-2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+transit_vpc_push_cisco_config-2.0.dist-info/direct_url.json,sha256=fxUo_BIigJiZlTCbR-bgQAU23xCGcNhdqXeIf0bVtbo,101
+transit_vpc_push_cisco_config-2.0.dist-info/top_level.txt,sha256=BJP4YKm7ntr_JHvpKMj8GwxiCI-1LZ0lZi9H10fkCK0,30
+transit_vpc_push_cisco_config/__init__.py,sha256=35S9OGUe7bjcf-Dpfl_NFlk5HgfBWIlxQY6W-hQzE_g,146
+transit_vpc_push_cisco_config/__pycache__/__init__.cpython-37.pyc,,
+transit_vpc_push_cisco_config/__pycache__/lambda_function.cpython-37.pyc,,
+transit_vpc_push_cisco_config/lambda_function.py,sha256=Zt7iyUkBQYLqlkXPksibrU1uK0kfe1NKNRjxZ1rSnn0,20960

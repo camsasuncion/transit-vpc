@@ -1,0 +1,9 @@
+setup.py
+./__init__.py
+./lambda_function.py
+transit_vpc_push_cisco_config.egg-info/PKG-INFO
+transit_vpc_push_cisco_config.egg-info/SOURCES.txt
+transit_vpc_push_cisco_config.egg-info/dependency_links.txt
+transit_vpc_push_cisco_config.egg-info/not-zip-safe
+transit_vpc_push_cisco_config.egg-info/requires.txt
+transit_vpc_push_cisco_config.egg-info/top_level.txt
