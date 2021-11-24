@@ -1,2 +1,0 @@
-paramiko>=1.16.0
-transit_vpc_push_cisco_config>=2.0
