@@ -78,7 +78,6 @@ done
 echo "------------------------------------------------------------------------------"
 echo "[Packing] Transit VPC Poller"
 echo "------------------------------------------------------------------------------"
-pwd
 cd "$source_dir"/transit-vpc-poller || exit 1
 zip -q -r9 "$build_dist_dir"/transit-vpc-poller.zip .
 
@@ -87,7 +86,9 @@ echo "--------------------------------------------------------------------------
 echo "[Packing] Transit VPC Push Cisco Config"
 echo "------------------------------------------------------------------------------"
 cd "$source_dir"/transit-vpc-push-cisco-config || exit 1
-pip3 install . --target ./package
+#pip3 install . --target ./package
+pip install .  --platform manylinux2010_x86_64 --implementation cp --python 3.6 --only-binary=:all: --upgrade --target ./package cryptography
+echo ">>>> DONE INSTALL <<<<"
 cd "$source_dir"/transit-vpc-push-cisco-config/package || exit 1
 zip -q -r9 "$build_dist_dir"/transit-vpc-push-cisco-config.zip .
 cd "$source_dir"/transit-vpc-push-cisco-config || exit 1
@@ -98,7 +99,9 @@ echo "[Packing] Transit VPC Solution Helper"
 echo "------------------------------------------------------------------------------"
 cd "$source_dir"/transit-vpc-solution-helper || exit 1
 
-pip3 install . --target ./package
+#pip3 install . --target ./package
+pip install . --platform manylinux2010_x86_64 --implementation cp --python 3.6 --only-binary=:all: --upgrade --target ./package cryptography
+echo ">>>> DONE INSTALL <<<<"
 cd "$source_dir"/transit-vpc-solution-helper/package || exit 1
 zip -q -r9 "$build_dist_dir"/transit-vpc-solution-helper.zip .
 cd "$source_dir"/transit-vpc-solution-helper || exit 1

@@ -140,7 +140,7 @@
         "Name" : "transit-vpc-solution-helper",
         "Handler": "transit_vpc_solution_helper/transit-vpc-solution-helper.lambda_handler",
         "Description": "Transit VPC: This function is invoked for custom resources.",
-        "Runtime": "python3.6",
+        "Runtime": "python3.8",
         "Timeout": "60",
         "MemorySize": "128"
       },
@@ -150,7 +150,7 @@
         "Name" : "cisco-configurator",
         "Handler": "transit_vpc_push_cisco_config/lambda_function.lambda_handler",
         "Description": "Transit VPC: This function is invoked when a generic VPN configuration is placed in an S3 bucket - it converts the generic information into Cisco IOS specific commands and pushes the config to transit VPC routers.",
-        "Runtime": "python3.6",
+        "Runtime": "python3.8",
         "Timeout": "300",
         "MemorySize": "128"
       },
@@ -160,7 +160,7 @@
         "Name" : "vgw-poller",
         "Handler": "transit-vpc-poller.lambda_handler",
         "Description": "Transit VPC: Poller function responsible for identifying specifically tagged VGWs and creating VPN connections to transit VPC.",
-        "Runtime": "python3.6",
+        "Runtime": "python3.8",
         "Timeout": "120",
         "MemorySize": "128"
       },
