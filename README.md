@@ -1,5 +1,5 @@
 # AWS Transit VPC
-A solution for creating a transit VPC with Cisco CSR instances (taken from https://github.com/awslabs/aws-transit-vpc). This repo has working generated AWS Lambda packages for deployment to S3 (see https://github.com/camsasuncion/transit-vpc/tree/master/deployment/regional-s3-assets).
+A solution for creating a transit VPC with Cisco CSR instances (taken from https://github.com/awslabs/aws-transit-vpc). This repo has a working set of generated AWS Lambda packages for deployment to S3 (see https://github.com/camsasuncion/transit-vpc/tree/master/deployment/regional-s3-assets).
 
 # Environment Details
 1. Launched an instance of Ubuntu (18.04) as build server with ```ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20211027``` AMI.
