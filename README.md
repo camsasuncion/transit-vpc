@@ -4,7 +4,7 @@ A solution for creating a transit VPC with Cisco CSR instances (taken from https
 # Environment Details
 1. Launched an instance of Ubuntu (18.04) as build server with ```ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20211027```.
 3. Installed pip version ```pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)``` (not pip3). 
-4. Used the python3 (version 3.6.9) that came with the Ubuntu AMI.
+4. Used ```python3``` (version 3.6.9) that came with the Ubuntu AMI.
 5. To solve the error:
    ```
    START RequestId: 6d9513c4-2cbb-4435-98bc-6d56563e6e55 Version: $LATEST
