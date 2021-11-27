@@ -2,11 +2,11 @@
 A solution for creating a transit VPC with Cisco CSR instances (taken from https://github.com/awslabs/aws-transit-vpc). This repo has working generated AWS Lambda packages for deployment to S3 (see https://github.com/camsasuncion/transit-vpc/tree/master/deployment/regional-s3-assets).
 
 # Environment Details
-1. Launched an instance of Ubuntu (18.04) as build server with 
+1. Launched an instance of Ubuntu (18.04) as build server with AMI of
    ```
-   AMI ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20211027
+   ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20211027
    ```
-3. Installed pip version (not pip3)
+3. Installed pip version ```pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)``` (not pip3) , and used the builtin python3 version of Python 3.6.9.
 4. To solve the error:
    ```
    START RequestId: 6d9513c4-2cbb-4435-98bc-6d56563e6e55 Version: $LATEST
