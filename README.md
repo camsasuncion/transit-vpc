@@ -17,7 +17,7 @@ A solution for creating a transit VPC with Cisco CSR instances (taken from https
    ````
    to
    ```
-   pip install \
+   pip install . \
     --platform manylinux2010_x86_64 \
     --implementation cp \
     --python 3.6 \
