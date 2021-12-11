@@ -135,7 +135,7 @@
   "Mappings" : {
     "Function" : {
       "SolutionHelper" : {
-        "S3Bucket" : "transit-vpc-camlon-123123",
+        "S3Bucket" : "camlon-transit-vpc-accnt1",
 	      "S3Key" : "transit-vpc/demo/transit-vpc-solution-helper.zip",
         "Name" : "transit-vpc-solution-helper",
         "Handler": "transit_vpc_solution_helper/transit-vpc-solution-helper.lambda_handler",
@@ -145,7 +145,7 @@
         "MemorySize": "128"
       },
       "Configurator" : {
-        "S3Bucket" : "transit-vpc-camlon-123123",
+        "S3Bucket" : "camlon-transit-vpc-accnt1",
 	      "S3Key" : "transit-vpc/demo/transit-vpc-push-cisco-config.zip",
         "Name" : "cisco-configurator",
         "Handler": "transit_vpc_push_cisco_config/lambda_function.lambda_handler",
@@ -155,7 +155,7 @@
         "MemorySize": "128"
       },
       "Poller" : {
-        "S3Bucket" : "transit-vpc-camlon-123123",
+        "S3Bucket" : "camlon-transit-vpc-accnt1",
 	      "S3Key" : "transit-vpc/demo/transit-vpc-poller.zip",
         "Name" : "vgw-poller",
         "Handler": "transit-vpc-poller.lambda_handler",

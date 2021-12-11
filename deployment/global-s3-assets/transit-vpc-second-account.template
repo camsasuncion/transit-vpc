@@ -21,7 +21,7 @@
   "Mappings" : {
     "Function" : {
       "Poller" : {
-        "S3Bucket" : "transit-vpc-camlon-123123",
+        "S3Bucket" : "camlon-transit-vpc-accnt1",
 	      "S3Key" : "transit-vpc/demo/transit-vpc-poller.zip",
         "Name" : "vgw-poller",
         "Handler": "transit-vpc-poller.lambda_handler",
